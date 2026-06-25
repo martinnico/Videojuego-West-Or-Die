@@ -26,6 +26,7 @@ var scene_order: Array[String] = [
 	"res://scenes/game_scene_01.tscn",
 	"res://scenes/game_scene_02.tscn",
 	"res://scenes/game_scene_03.tscn",
+	"res://scenes/game_scene_04.tscn",
 ]
 
 
