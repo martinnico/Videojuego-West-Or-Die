@@ -3,206 +3,145 @@
 [ext_resource type="Script" uid="uid://ccb4yyev0evi8" path="res://scenes/game_scene_04.gd" id="1_if4km"]
 [ext_resource type="Texture2D" uid="uid://cgccy56jx4vlu" path="res://assets/backgrounds/patio_taberna.png" id="3_ppjqp"]
 [ext_resource type="PackedScene" path="res://scenes/components/qte_prompt.tscn" id="3_qte"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10000.png" id="3_u3lsk"]
 [ext_resource type="Texture2D" uid="uid://bs3dpsajj0muf" path="res://assets/characters/main/pj_cubrirse/0001.png" id="3_yfy8i"]
 [ext_resource type="Texture2D" uid="uid://b0tys5nhc0g37" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10001.png" id="4_7hsvt"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10001.png" id="4_041a4"]
 [ext_resource type="Texture2D" uid="uid://d3rqwooq2q1ri" path="res://assets/characters/main/pj_cubrirse/0002.png" id="4_kkmq1"]
 [ext_resource type="Texture2D" uid="uid://de2e71hjgpy73" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10002.png" id="5_3v4nu"]
 [ext_resource type="Texture2D" uid="uid://bxwk4lcbd5j3l" path="res://assets/characters/main/pj_cubrirse/0003.png" id="5_r1tsp"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10002.png" id="5_vjgta"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10003.png" id="6_lvj3k"]
 [ext_resource type="Texture2D" uid="uid://b506g8sco83pw" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10003.png" id="6_rq8os"]
 [ext_resource type="Texture2D" uid="uid://c8aus65obabo8" path="res://assets/characters/main/pj_cubrirse/0004.png" id="6_yg454"]
 [ext_resource type="Texture2D" uid="uid://df5dbhgamlcyn" path="res://assets/characters/main/pj_cubrirse/0005.png" id="7_4i8jd"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10004.png" id="7_7qg1v"]
 [ext_resource type="Texture2D" uid="uid://cbbehmvpcfso1" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10004.png" id="7_ohnkl"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10005.png" id="8_gu66n"]
 [ext_resource type="Texture2D" uid="uid://dyvm1gekh8mny" path="res://assets/characters/main/pj_cubrirse/0006.png" id="8_ip8dr"]
 [ext_resource type="Texture2D" uid="uid://bwvadra8ioatd" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10005.png" id="8_te0lp"]
 [ext_resource type="Texture2D" uid="uid://dovv05it0eyol" path="res://assets/characters/main/pj_cubrirse/0007.png" id="9_icxtj"]
 [ext_resource type="Texture2D" uid="uid://dpskp7t1otiqg" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10006.png" id="9_jlpb3"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10006.png" id="9_q7v36"]
 [ext_resource type="Texture2D" uid="uid://dmwtpn8f6posm" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10007.png" id="10_doy04"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10007.png" id="10_kjb8m"]
 [ext_resource type="Texture2D" uid="uid://hun60dmbm2j1" path="res://assets/characters/main/pj_cubrirse/0008.png" id="10_ly5tc"]
 [ext_resource type="Texture2D" uid="uid://68qro36ucdve" path="res://assets/characters/main/pj_cubrirse/0009.png" id="11_2si6o"]
 [ext_resource type="Texture2D" uid="uid://ynnkx5inrh25" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10008.png" id="11_86722"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10008.png" id="11_gsd8m"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10009.png" id="12_5faa2"]
 [ext_resource type="Texture2D" uid="uid://b7neo1x6cflpa" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10009.png" id="12_jv5sq"]
 [ext_resource type="Texture2D" uid="uid://btk4ysivi3t2d" path="res://assets/characters/main/pj_cubrirse/0010.png" id="12_m38tb"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10010.png" id="13_68heh"]
 [ext_resource type="Texture2D" uid="uid://brpqykbujix2h" path="res://assets/characters/main/pj_cubrirse/0011.png" id="13_an4yv"]
 [ext_resource type="Texture2D" uid="uid://bj4vep1328v1t" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10010.png" id="13_ssmcg"]
 [ext_resource type="Texture2D" uid="uid://boabimyodo2w3" path="res://assets/characters/main/pj_cubrirse/0012.png" id="14_4torx"]
 [ext_resource type="Texture2D" uid="uid://d26ei64wd1obe" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10011.png" id="14_5pehm"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10011.png" id="14_fr3fr"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10012.png" id="15_0q5dw"]
 [ext_resource type="Texture2D" uid="uid://kq13lf1qe3hf" path="res://assets/characters/main/pj_cubrirse/0013.png" id="15_48qiy"]
 [ext_resource type="Texture2D" uid="uid://da4jchmpw3r73" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10012.png" id="15_g1d57"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10013.png" id="16_ato4l"]
 [ext_resource type="Texture2D" uid="uid://c2fqucvubud2h" path="res://assets/characters/main/pj_cubrirse/0014.png" id="16_eme6a"]
 [ext_resource type="Texture2D" uid="uid://bowio5i02e8q" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10013.png" id="16_q82u8"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10014.png" id="17_gr7ut"]
 [ext_resource type="Texture2D" uid="uid://bf31r1gjx3v7g" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10014.png" id="17_mkwj0"]
 [ext_resource type="Texture2D" uid="uid://d3rc1fdjrul8v" path="res://assets/characters/main/pj_cubrirse/0015.png" id="17_t7406"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10015.png" id="18_bdktv"]
 [ext_resource type="Texture2D" uid="uid://c7survo1ullf2" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10015.png" id="18_hwtnb"]
 [ext_resource type="Texture2D" uid="uid://dp10lo6wn5ed8" path="res://assets/characters/main/pj_cubrirse/0016.png" id="18_xy4fj"]
 [ext_resource type="Texture2D" uid="uid://xvp8l0h3b6sg" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10016.png" id="19_bf342"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10016.png" id="19_i57hl"]
 [ext_resource type="Texture2D" uid="uid://b647yhhqin40e" path="res://assets/characters/main/pj_cubrirse/0017.png" id="19_ng6bf"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10017.png" id="20_2hcsl"]
 [ext_resource type="Texture2D" uid="uid://v880hqfebq3e" path="res://assets/characters/main/pj_cubrirse/0018.png" id="20_bnbms"]
 [ext_resource type="Texture2D" uid="uid://002cp0hm2i1l" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10017.png" id="20_ccsbo"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10018.png" id="21_5nprr"]
 [ext_resource type="Texture2D" uid="uid://7048knt1246s" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10018.png" id="21_a25jb"]
 [ext_resource type="Texture2D" uid="uid://7pyvgxerub6o" path="res://assets/characters/main/pj_cubrirse/0019.png" id="21_o4wli"]
 [ext_resource type="Texture2D" uid="uid://b3qgicjadd4fd" path="res://assets/characters/main/pj_cubrirse/0020.png" id="22_n3ew0"]
 [ext_resource type="Texture2D" uid="uid://b80g2uj4fp310" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10019.png" id="22_tgbpq"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10019.png" id="22_uk6lx"]
 [ext_resource type="Texture2D" uid="uid://65tgpeqe4jme" path="res://assets/characters/main/pj_cubrirse/0021.png" id="23_lruk3"]
 [ext_resource type="Texture2D" uid="uid://dl8eaq3ogrigg" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10020.png" id="23_npg2d"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10020.png" id="23_ycbiw"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10021.png" id="24_h4x2t"]
 [ext_resource type="Texture2D" uid="uid://b0elhwr8k4ltw" path="res://assets/characters/main/pj_cubrirse/0022.png" id="24_hq624"]
 [ext_resource type="Texture2D" uid="uid://dkdliky7qyoul" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10021.png" id="24_in6s6"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10022.png" id="25_2ec2u"]
 [ext_resource type="Texture2D" uid="uid://dtogtsxi2vti1" path="res://assets/characters/main/pj_cubrirse/0023.png" id="25_gf4k0"]
 [ext_resource type="Texture2D" uid="uid://dtbylycg7j2ua" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10022.png" id="25_julyk"]
 [ext_resource type="Texture2D" uid="uid://bhvdm8excfowk" path="res://assets/characters/main/pj_cubrirse/0024.png" id="26_623fb"]
 [ext_resource type="Texture2D" uid="uid://o07o1vewsd1v" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10023.png" id="26_h3aei"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10023.png" id="26_pwt6q"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10024.png" id="27_g8bkw"]
 [ext_resource type="Texture2D" uid="uid://wa27k0njydv5" path="res://assets/characters/main/pj_cubrirse/0025.png" id="27_gmgyp"]
 [ext_resource type="Texture2D" uid="uid://bgkuegvnxbcyb" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10024.png" id="27_ou8jy"]
 [ext_resource type="Texture2D" uid="uid://ml2vsxvx8oin" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10025.png" id="28_04sqx"]
 [ext_resource type="Texture2D" uid="uid://bhg5nqlbpgqgo" path="res://assets/characters/main/pj_cubrirse/0026.png" id="28_csu7i"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10025.png" id="28_ptp42"]
 [ext_resource type="Texture2D" uid="uid://bj8b6nl5khawt" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10026.png" id="29_dnq23"]
 [ext_resource type="Texture2D" uid="uid://f4wfbxir2dux" path="res://assets/characters/main/pj_cubrirse/0027.png" id="29_gciys"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10026.png" id="29_go615"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10027.png" id="30_okfts"]
 [ext_resource type="Texture2D" uid="uid://dsvlxgsjvjmwe" path="res://assets/characters/main/pj_cubrirse/0028.png" id="30_s0i8w"]
 [ext_resource type="Texture2D" uid="uid://dksnohyng7fcc" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10027.png" id="30_uha4n"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10028.png" id="31_4q3h0"]
 [ext_resource type="Texture2D" uid="uid://bfv2eidt18bth" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10028.png" id="31_hytfb"]
 [ext_resource type="Texture2D" uid="uid://bl6vs3etas1ul" path="res://assets/characters/main/pj_cubrirse/0029.png" id="31_xisnl"]
 [ext_resource type="Texture2D" uid="uid://1fe7d5sya3be" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10029.png" id="32_0ft3v"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10029.png" id="32_2avma"]
 [ext_resource type="Texture2D" uid="uid://jbvwbhoxayp0" path="res://assets/characters/main/pj_cubrirse/0030.png" id="32_itxg1"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10030.png" id="33_j28al"]
 [ext_resource type="Texture2D" uid="uid://baln56by5csc4" path="res://assets/characters/main/pj_cubrirse/0031.png" id="33_ldxg7"]
 [ext_resource type="Texture2D" uid="uid://ca1xrgtk4c71h" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10030.png" id="33_o78wl"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10031.png" id="34_5vjnf"]
 [ext_resource type="Texture2D" uid="uid://mnxpecfhntej" path="res://assets/characters/main/pj_cubrirse/0032.png" id="34_cvp1t"]
 [ext_resource type="Texture2D" uid="uid://dcgbjg5xcihyq" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10031.png" id="34_d2ce4"]
 [ext_resource type="Texture2D" uid="uid://b4gppwfx0cl8k" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10032.png" id="35_3mtdt"]
 [ext_resource type="Texture2D" uid="uid://cco5befe6afx0" path="res://assets/characters/main/pj_cubrirse/0033.png" id="35_6yngv"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10032.png" id="35_enil5"]
 [ext_resource type="Texture2D" uid="uid://dqj14clopq56v" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10033.png" id="36_axuvp"]
 [ext_resource type="Texture2D" uid="uid://djm2obysfpxap" path="res://assets/characters/main/pj_cubrirse/0034.png" id="36_ccjjd"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10033.png" id="36_x5hfe"]
 [ext_resource type="Texture2D" uid="uid://hi200cspg335" path="res://assets/characters/main/pj_cubrirse/0035.png" id="37_cs7i5"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10034.png" id="37_j11c6"]
 [ext_resource type="Texture2D" uid="uid://icypofyk8fwm" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10034.png" id="37_jnnht"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10035.png" id="38_8afx3"]
 [ext_resource type="Texture2D" uid="uid://uaffws4qkwsj" path="res://assets/characters/main/pj_cubrirse/0036.png" id="38_lqvdh"]
 [ext_resource type="Texture2D" uid="uid://ommrdfsy12r1" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10035.png" id="38_vlyti"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10036.png" id="39_dane5"]
 [ext_resource type="Texture2D" uid="uid://cn7iwpooie0cy" path="res://assets/characters/main/pj_cubrirse/0037.png" id="39_o5hy7"]
 [ext_resource type="Texture2D" uid="uid://drtjhdy5ylkmc" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10036.png" id="39_oig2m"]
 [ext_resource type="Texture2D" uid="uid://ctw2b36xu1vkg" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10037.png" id="40_6xr1m"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10037.png" id="40_acmxg"]
 [ext_resource type="Texture2D" uid="uid://d67u17d46jvi" path="res://assets/characters/main/pj_cubrirse/0038.png" id="40_vuos5"]
 [ext_resource type="Texture2D" uid="uid://b4rhe57s65gf8" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10038.png" id="41_0y4l1"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10038.png" id="41_g77dj"]
 [ext_resource type="Texture2D" uid="uid://dhhssho12oobt" path="res://assets/characters/main/pj_cubrirse/0039.png" id="41_uc2o3"]
 [ext_resource type="Texture2D" uid="uid://bedgl3vpilt10" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10039.png" id="42_6ud8h"]
 [ext_resource type="Texture2D" uid="uid://u38jykwjtayk" path="res://assets/characters/main/pj_cubrirse/0040.png" id="42_746xb"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10039.png" id="42_ok2ea"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10040.png" id="43_lnwu8"]
 [ext_resource type="Texture2D" uid="uid://bbq5hkmhadcx8" path="res://assets/characters/main/pj_muere2/0001.png" id="43_p7jax"]
 [ext_resource type="Texture2D" uid="uid://jjdwfovnbpka" path="res://assets/characters/main/pj_dispara_duelo/0001.png" id="43_unp4c"]
 [ext_resource type="Texture2D" uid="uid://bfqsg1wfoqfbw" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10040.png" id="43_x0px7"]
 [ext_resource type="Texture2D" uid="uid://f3k26suxomig" path="res://assets/characters/main/pj_muere2/0002.png" id="44_3skgg"]
 [ext_resource type="Texture2D" uid="uid://6psbcytfl2o0" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10041.png" id="44_4x5he"]
 [ext_resource type="Texture2D" uid="uid://cdnkcu8k0kc08" path="res://assets/characters/main/pj_dispara_duelo/0002.png" id="44_6gfh8"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10041.png" id="44_oaryb"]
 [ext_resource type="Texture2D" uid="uid://c86tlrwf8iohs" path="res://assets/characters/main/pj_dispara_duelo/0003.png" id="45_fr6eb"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10042.png" id="45_hm0gm"]
 [ext_resource type="Texture2D" uid="uid://i885n0kro0tq" path="res://assets/characters/main/pj_muere2/0003.png" id="45_u8q8o"]
 [ext_resource type="Texture2D" uid="uid://g6uvmbodysn8" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10042.png" id="45_wyswa"]
 [ext_resource type="Texture2D" uid="uid://bbw2vipmy3rk2" path="res://assets/characters/main/pj_dispara_duelo/0004.png" id="46_7w5wq"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10043.png" id="46_61iha"]
 [ext_resource type="Texture2D" uid="uid://bh8ascvknbhkx" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10043.png" id="46_faj4i"]
 [ext_resource type="Texture2D" uid="uid://biu64g8jy86ud" path="res://assets/characters/main/pj_muere2/0004.png" id="46_upos2"]
 [ext_resource type="Texture2D" uid="uid://c6s2706xsigd3" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10044.png" id="47_b667g"]
 [ext_resource type="Texture2D" uid="uid://b08poovfkmq35" path="res://assets/characters/main/pj_muere2/0005.png" id="47_elws2"]
 [ext_resource type="Texture2D" uid="uid://oq4jdslswl0a" path="res://assets/characters/main/pj_dispara_duelo/0005.png" id="47_g7gyb"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10044.png" id="47_rw6hl"]
 [ext_resource type="Texture2D" uid="uid://c1gffixxd02c" path="res://assets/characters/main/pj_muere2/0006.png" id="48_6wf1u"]
 [ext_resource type="Texture2D" uid="uid://bmqethf57uk5c" path="res://assets/characters/main/pj_dispara_duelo/0006.png" id="48_jc1sh"]
 [ext_resource type="Texture2D" uid="uid://j5pfp4svxpir" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10045.png" id="48_l3xq8"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10045.png" id="48_rhhla"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10046.png" id="49_1hmp8"]
 [ext_resource type="Texture2D" uid="uid://thag8msq4wau" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10046.png" id="49_nqkgo"]
 [ext_resource type="Texture2D" uid="uid://ckfg5vyxdy5vq" path="res://assets/characters/main/pj_muere2/0007.png" id="49_q2i3c"]
 [ext_resource type="Texture2D" uid="uid://yfewlkf4ko4c" path="res://assets/characters/main/pj_dispara_duelo/0007.png" id="49_q3vhs"]
 [ext_resource type="Texture2D" uid="uid://bta5u32q58hpg" path="res://assets/characters/main/pj_muere2/0008.png" id="50_5pygv"]
 [ext_resource type="Texture2D" uid="uid://nnci5v1tlalo" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10047.png" id="50_avx8o"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10047.png" id="50_iwdki"]
 [ext_resource type="Texture2D" uid="uid://fqn7cngycvq0" path="res://assets/characters/main/pj_dispara_duelo/0008.png" id="50_nxt35"]
 [ext_resource type="Texture2D" uid="uid://ccmaqhu8i6688" path="res://assets/characters/main/pj_dispara_duelo/0009.png" id="51_b6t67"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10048.png" id="51_fpit2"]
 [ext_resource type="Texture2D" uid="uid://biqw7w154egxv" path="res://assets/characters/main/pj_muere2/0009.png" id="51_h77hg"]
 [ext_resource type="Texture2D" uid="uid://cqqrlfehjkwre" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10048.png" id="51_nis6w"]
 [ext_resource type="Texture2D" uid="uid://d05iicxm44ia7" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10049.png" id="52_3huip"]
 [ext_resource type="Texture2D" uid="uid://dae5ehwu8ecnv" path="res://assets/characters/main/pj_dispara_duelo/0010.png" id="52_fwxgp"]
 [ext_resource type="Texture2D" uid="uid://beuvste454v2g" path="res://assets/characters/main/pj_muere2/0010.png" id="52_gh2in"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10049.png" id="52_qo8rw"]
 [ext_resource type="Texture2D" uid="uid://b770rqs6rkytw" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10050.png" id="53_2sfi6"]
 [ext_resource type="Texture2D" uid="uid://bdrw3i45gj6nh" path="res://assets/characters/main/pj_dispara_duelo/0011.png" id="53_8t2ev"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10050.png" id="53_g10da"]
 [ext_resource type="Texture2D" uid="uid://5o1yv05xnbn0" path="res://assets/characters/main/pj_muere2/0011.png" id="53_j5bxq"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10051.png" id="54_6chr2"]
 [ext_resource type="Texture2D" uid="uid://ds4suyfwq6xj3" path="res://assets/characters/main/pj_muere2/0012.png" id="54_juix3"]
 [ext_resource type="Texture2D" uid="uid://dri23p3bmasdh" path="res://assets/characters/main/pj_dispara_duelo/0012.png" id="54_mnlj4"]
 [ext_resource type="Texture2D" uid="uid://co4ndiktu30sx" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10051.png" id="54_mtb81"]
 [ext_resource type="Texture2D" uid="uid://num2yf3rt784" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10052.png" id="55_73uc4"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10052.png" id="55_ai87w"]
 [ext_resource type="Texture2D" uid="uid://wd7pt404vja0" path="res://assets/characters/main/pj_dispara_duelo/0013.png" id="55_ehsem"]
 [ext_resource type="Texture2D" uid="uid://nust1xphrpvw" path="res://assets/characters/main/pj_muere2/0013.png" id="55_tv08m"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10053.png" id="56_3looj"]
 [ext_resource type="Texture2D" uid="uid://1uxai5bawepu" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10053.png" id="56_ngawy"]
 [ext_resource type="Texture2D" uid="uid://dwbufx37l4d4s" path="res://assets/characters/main/pj_dispara_duelo/0014.png" id="56_nt45x"]
 [ext_resource type="Texture2D" uid="uid://b1yy1tld01fcb" path="res://assets/characters/main/pj_muere2/0014.png" id="56_wtoh1"]
 [ext_resource type="Texture2D" uid="uid://gobij6xc2rsr" path="res://assets/characters/main/pj_muere2/0015.png" id="57_7c5q2"]
 [ext_resource type="Texture2D" uid="uid://bqyt4qhjd4qd3" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10054.png" id="57_13w6i"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10054.png" id="57_dtuik"]
 [ext_resource type="Texture2D" uid="uid://cl8jw0pn5suyx" path="res://assets/characters/main/pj_dispara_duelo/0015.png" id="57_km6ug"]
 [ext_resource type="Texture2D" uid="uid://clhd7w13mw10l" path="res://assets/characters/main/pj_dispara_duelo/0016.png" id="58_0evag"]
 [ext_resource type="Texture2D" uid="uid://c2jnam7kx78j6" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10055.png" id="58_fcget"]
 [ext_resource type="Texture2D" uid="uid://bmhorr2gpc250" path="res://assets/characters/main/pj_muere2/0016.png" id="58_ipk58"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10055.png" id="58_y0t1w"]
 [ext_resource type="Texture2D" uid="uid://gvgi0icahpgs" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10056.png" id="59_5my56"]
 [ext_resource type="Texture2D" uid="uid://gyv6ntg7l8xg" path="res://assets/characters/main/pj_dispara_duelo/0017.png" id="59_me2co"]
 [ext_resource type="Texture2D" uid="uid://dc5vakfipg4um" path="res://assets/characters/main/pj_muere2/0017.png" id="59_s7etw"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10056.png" id="59_vmp1r"]
 [ext_resource type="Texture2D" uid="uid://dvkvd5atkoupo" path="res://assets/characters/main/pj_dispara_duelo/0018.png" id="60_2k61w"]
 [ext_resource type="Texture2D" uid="uid://ijkkbg4ekg50" path="res://assets/characters/main/pj_muere2/0018.png" id="60_cytc0"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10057.png" id="60_g8too"]
 [ext_resource type="Texture2D" uid="uid://b6lj2373fn3e2" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10057.png" id="60_n4wka"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10058.png" id="61_gxuuj"]
 [ext_resource type="Texture2D" uid="uid://c2jdep4gj6njx" path="res://assets/characters/main/pj_muere2/0019.png" id="61_lg38r"]
 [ext_resource type="Texture2D" uid="uid://cgpphjvow60uv" path="res://assets/characters/main/pj_dispara_duelo/0019.png" id="61_m8j4h"]
 [ext_resource type="Texture2D" uid="uid://1vc7gx0b15dj" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10058.png" id="61_ugpxi"]
 [ext_resource type="Texture2D" uid="uid://7ysgo8ufg3qa" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10059.png" id="62_hci3c"]
 [ext_resource type="Texture2D" uid="uid://01iewi7dn5pe" path="res://assets/characters/main/pj_dispara_duelo/0020.png" id="62_qxhqr"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10059.png" id="62_tpow8"]
 [ext_resource type="Texture2D" uid="uid://bi5oy4j54c1rm" path="res://assets/characters/main/pj_muere2/0020.png" id="62_vs2yj"]
-[ext_resource type="Texture2D" path="res://assets/characters/enemigo patio 1 dispara/enemigo_patio_dispara_10060.png" id="63_0svu8"]
 [ext_resource type="Texture2D" uid="uid://dd45j3rviuw8i" path="res://assets/characters/main/pj_dispara_duelo/0021.png" id="63_06q8i"]
 [ext_resource type="Texture2D" uid="uid://bquflbj0ip6ys" path="res://assets/characters/enemigo patio 1/enemigo_patio_sentado_10060.png" id="63_f17j0"]
 [ext_resource type="Texture2D" uid="uid://d2n53mgyo5pua" path="res://assets/characters/main/pj_muere2/0021.png" id="63_vdt3d"]
@@ -1118,187 +1057,187 @@
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("3_u3lsk")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("4_041a4")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("5_vjgta")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("6_lvj3k")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("7_7qg1v")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("8_gu66n")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("9_q7v36")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("10_kjb8m")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("11_gsd8m")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("12_5faa2")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("13_68heh")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("14_fr3fr")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("15_0q5dw")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("16_ato4l")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("17_gr7ut")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("18_bdktv")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("19_i57hl")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("20_2hcsl")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("21_5nprr")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("22_uk6lx")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("23_ycbiw")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("24_h4x2t")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("25_2ec2u")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("26_pwt6q")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("27_g8bkw")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("28_ptp42")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("29_go615")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("30_okfts")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("31_4q3h0")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("32_2avma")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("33_j28al")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("34_5vjnf")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("35_enil5")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("36_x5hfe")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("37_j11c6")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("38_8afx3")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("39_dane5")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("40_acmxg")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("41_g77dj")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("42_ok2ea")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("43_lnwu8")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("44_oaryb")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("45_hm0gm")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("46_61iha")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("47_rw6hl")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("48_rhhla")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("49_1hmp8")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("50_iwdki")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("51_fpit2")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("52_qo8rw")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("53_g10da")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("54_6chr2")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("55_ai87w")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("56_3looj")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("57_dtuik")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("58_y0t1w")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("59_vmp1r")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("60_g8too")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("61_gxuuj")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("62_tpow8")
+"texture": null
 }, {
 "duration": 1.0,
-"texture": ExtResource("63_0svu8")
+"texture": null
 }],
 "loop": true,
 "name": &"enemigo_1_dispara",
@@ -5923,7 +5862,7 @@ stretch_mode = 6
 
 [node name="PlayerSprite" type="AnimatedSprite2D" parent="." unique_id=179521669]
 z_index = 1
-position = Vector2(1195.0001, 1336)
+position = Vector2(1174, 1352.0001)
 scale = Vector2(1.6906252, 1.7222222)
 sprite_frames = SubResource("SpriteFrames_player_placeholder")
 animation = &"main corre"
@@ -5931,19 +5870,19 @@ frame = 87
 frame_progress = 1.0
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1893291897]
-position = Vector2(1053.04, 1356.9)
+position = Vector2(924, 1357)
 scale = Vector2(1.3578, 1.3611)
 sprite_frames = SubResource("SpriteFrames_4heyu")
 animation = &"main tira dinamita"
-frame = 40
-frame_progress = 0.8629301
+frame = 125
+frame_progress = 1.0
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="." unique_id=1219405287]
-position = Vector2(972.01, 1344.71)
+position = Vector2(966, 1362)
 scale = Vector2(1.8051, 1.7856)
 sprite_frames = SubResource("SpriteFrames_l4lh1")
-frame = 13
-frame_progress = 0.09378328
+frame = 66
+frame_progress = 0.23714893
 
 [node name="Enemy1Hitbox" type="Area2D" parent="." unique_id=191214592]
 position = Vector2(1400, 600)
@@ -5957,8 +5896,8 @@ position = Vector2(1055, 834)
 scale = Vector2(2.3083334, 2.5333333)
 sprite_frames = SubResource("SpriteFrames_kp42q")
 animation = &"Enemigo se levanta"
-frame = 104
-frame_progress = 0.471702
+frame = 129
+frame_progress = 0.78456414
 
 [node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="Enemy1Hitbox" unique_id=571300071]
 position = Vector2(1116.375, 792.37494)

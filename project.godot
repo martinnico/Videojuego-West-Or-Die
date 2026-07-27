@@ -11,7 +11,8 @@ config_version=5
 [application]
 
 config/name="Western QTE Game"
-run/main_scene="res://scenes/main_menu.tscn"
+;run/main_scene="res://scenes/main_menu.tscn"
+run/main_scene="res://scenes/game_scene_04.tscn"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
 

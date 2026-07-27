@@ -14,7 +14,8 @@ var lives: int = 3
 ## Maximum lives the player can have.
 var max_lives: int = 3
 ## Index into scene_order for the current scene.
-var current_scene_index: int = 0
+## NOTA DE TESTING: seteado en 3 para arrancar directo en game_scene_04.
+var current_scene_index: int = 3
 ## Result of the game: "victory", "defeat", or "" (in progress).
 var game_result: String = ""
 
@@ -37,7 +38,9 @@ func _ready() -> void:
 ## Resets all game state to starting values.
 func reset_game() -> void:
 	lives = max_lives
-	current_scene_index = 0
+	# NOTA DE TESTING: arrancar directo en la última escena (game_scene_04, índice 3).
+	# Cambiar a 0 para jugar desde el inicio.
+	current_scene_index = 3
 	game_result = ""
 	lives_changed.emit(lives)
 

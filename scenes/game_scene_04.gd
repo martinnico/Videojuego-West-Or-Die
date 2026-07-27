@@ -116,42 +116,56 @@ func _iniciar_escena() -> void:
 	enemy1_levanta.visible = true
 	enemy1_dispara.visible = false
 	enemy1_muere.visible = false
-	enemy1_levanta.stop()
 	enemy1_levanta.frame = 0
 
 	enemy2_levanta.visible = true
 	enemy2_dispara.visible = false
 	enemy2_muere.visible = false
-	enemy2_levanta.stop()
 	enemy2_levanta.frame = 0
 
 	# Ocultar dinamita
 	dinamita.visible = false
 	dinamita.stop()
 
-	# Posicionar al jugador en base a su target para la corrida.
-	# Hacemos que empiece 1000px a la izquierda de su marca (dentro de los límites de la cámara alejada)
-	player_sprite.position.x = _run_target_x - 1000
+	# Reproducir la animación en su posición original del editor.
+	# Los fotogramas ya contienen todo el movimiento del cowboy corriendo hacia los barriles.
+	player_sprite.frame = 0
 	player_sprite.play("main corre")
-
-	# Tween para hacer correr al personaje hasta los barriles
-	var tween = create_tween()
-	tween.tween_property(player_sprite, "position:x", _run_target_x, run_duration)\
-		.set_trans(Tween.TRANS_SINE)\
-		.set_ease(Tween.EASE_OUT)
 
 	# Iniciar animación de levantarse en ambos enemigos al mismo tiempo
 	enemy1_levanta.play("Enemigo se levanta")
 	enemy2_levanta.play("enemigo 2 levanta")
 
-	# Al terminar de correr, se activa el QTE
-	await tween.finished
+	# Esperar a que termine la animación del jugador corriendo
+	await player_sprite.animation_finished
+	# Quedarse en el último frame (cowboy agachado detrás de los barriles)
+	var _last_run_frame := player_sprite.sprite_frames.get_frame_count("main corre") - 1
 	player_sprite.stop()
-	player_sprite.frame = 0 # Quedarse quieto a cubierto
-	
+	player_sprite.frame = _last_run_frame
+
+	# Conectar señal de fin de animación de enemigos para que queden en su último frame
+	if not enemy1_levanta.animation_finished.is_connected(_on_enemy1_levanta_finished):
+		enemy1_levanta.animation_finished.connect(_on_enemy1_levanta_finished)
+	if not enemy2_levanta.animation_finished.is_connected(_on_enemy2_levanta_finished):
+		enemy2_levanta.animation_finished.connect(_on_enemy2_levanta_finished)
+
 	if not _qte_resolved:
 		narrative_label.text = "¡Pensa rápido!"
 		qte_prompt.start_qte()
+
+
+# -------------------- Callbacks de Animaciones de Enemigos --------------------
+
+## Congela el enemigo 1 en su último frame al terminar la animación "levanta".
+func _on_enemy1_levanta_finished() -> void:
+	enemy1_levanta.stop()
+	enemy1_levanta.frame = enemy1_levanta.sprite_frames.get_frame_count(enemy1_levanta.animation) - 1
+
+
+## Congela el enemigo 2 en su último frame al terminar la animación "levanta".
+func _on_enemy2_levanta_finished() -> void:
+	enemy2_levanta.stop()
+	enemy2_levanta.frame = enemy2_levanta.sprite_frames.get_frame_count(enemy2_levanta.animation) - 1
 
 
 # -------------------- Entrada del Jugador --------------------
@@ -201,12 +215,16 @@ func _on_qte_success() -> void:
 	enemy1_levanta.visible = true
 	enemy1_dispara.visible = false
 	enemy1_muere.visible = false
+	var _e1_last_frame := enemy1_levanta.sprite_frames.get_frame_count("Enemigo se levanta") - 1
 	enemy1_levanta.stop()
+	enemy1_levanta.frame = _e1_last_frame
 
 	enemy2_levanta.visible = true
 	enemy2_dispara.visible = false
 	enemy2_muere.visible = false
+	var _e2_last_frame := enemy2_levanta.sprite_frames.get_frame_count("enemigo 2 levanta") - 1
 	enemy2_levanta.stop()
+	enemy2_levanta.frame = _e2_last_frame
 
 	# 3. El jugador ejecuta la animación de tirar la dinamita
 	player_tira_dinamita.play("main tira dinamita")
@@ -257,6 +275,9 @@ func _on_qte_failure() -> void:
 	enemy2_muere.visible = false
 
 	# 2. Solo aparecen AnimatedSprite2D2 del jugador y los disparos enemigos (AnimatedSprite2D2)
+	# Resetear la animación de muerte al frame 0 antes de reproducir
+	player_muere.stop()
+	player_muere.frame = 0
 	player_muere.visible = true
 	player_muere.play()
 
